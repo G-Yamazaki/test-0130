@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel = "stylesheet" href = "styles/styles.css">
+  </head>
+  <body>
+   <h1> ガクネーター</h1>
+   <h3>チーム14</h3>
+   <h3>5420035 山崎 銀汰 (リーダー)</h3>
+   <h3>5420004 駒井大輝、5420006 清水圭佑、5420070 森下貴登</h3>
+
+    <p></p>
+
+    <p></p>
+    <script>
+      jQuery(function () {
+        $("body a").filter('[href*=".pdf"]').each(function () {
+          var this_file_url = $(this).attr("href");
+          $(this).before('<iframe src="' + this_file_url + '" width="100%" height="90%"></iframe>');
+        });
+      });
+    </script>
+    <ol>
+      <li>企画書
+        
+      <ul>
+        <a href= "https://drive.google.com/file/d/1pHjVooTezax-lyM5PP76dIxbxA_mUYtd/view?usp=share_link" >ここをクリック</a>
+      </ul>
+    </li>
+      <li>使用方法
+        <ul>
+          1.コードを実行してください <br>
+          2.質問に対しての解答をテキストボックスに入力してください<br>
+          3.解答を12回繰り返してください<br>
+          4.解答後、おすすめの研究室が表示されます<br>
+        </ul>
+      </li>
+      <li>プログラム本体
+        <ul>
+          <li>
+            <a href= " https://colab.research.google.com/drive/1vp4ohTYWK5D7ptFb6hOMeZgspWseFaAn?usp=sharing" >ここをクリック</a>
+          </li>
+        </ul>
+      </li>
+      <li>紹介動画
+        <ul>
+          <iframe width="500" height="400" src="https://www.youtube.com/embed/A3UN9f5lkNM?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+          </iframe>
+          </ul>
+      </li>
+    </ul>
+
+
+  </body>
+</html>
